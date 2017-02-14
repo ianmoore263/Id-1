@@ -34,5 +34,6 @@ p {
     text-align:justify;
     padding: 2%;
     margin:auto;
-    @media(min-width:60em){html{font-size: 100%}}
 }
+html{font-size:100%;} 
+@media(min-width:60em){html{font-size: 100%}}
