@@ -35,5 +35,5 @@ p {
     padding: 2%;
     margin:auto;
 }
-html{font-size:100%;} 
-@media(min-width:60em){html{font-size: 100%}}
+html{font-size:110%;} 
+@media(min-width:60em){html{font-size: 90%}}
