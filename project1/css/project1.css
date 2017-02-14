@@ -5,7 +5,6 @@ Body {
     text-align: center;
     background-image:url(../images/blackdesignbackground.jpg);
     background-size:cover;
-    @media(min-width:60em){html{font-size: 100%}}
 }
 
 img {
