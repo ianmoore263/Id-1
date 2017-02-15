@@ -3,8 +3,13 @@ Body {
     margin:0;
     font-size:100%;
     text-align: center;
-    background-image:url(../images/blackdesignbackground.jpg);
-    background-size:cover;
+    background-image:url(../images/160203_JWL_WebsiteArtistImages_710x700_DadaLife.png);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    
 }
 
 img {
@@ -23,6 +28,9 @@ img#handshake{
 }
 img#concert{
     width:58%;
+}
+img#gif{
+    width:60%;
 }
 p {
     width:60%;
