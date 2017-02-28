@@ -1,0 +1,44 @@
+/*Desktop Layout*/
+
+body {
+    margin:0;
+}
+
+img{
+    width:100%;
+}
+
+section#aboutme{
+    position:fixed;
+    top: 25%;
+    left: 0;
+    bottom:0;
+    width: 15%;
+    background-color: bisque;
+        
+    
+    
+}
+
+h3{
+    background-color: aquamarine;
+    position: fixed;
+    border:hidden;
+    top:0;
+    right
+    bottom: 75%;
+}
+
+/*Mobile Layout*/
+
+@media only screen and (Max-width:500px) {
+    
+    Body{
+        Width:80%;
+        padding:2% 2%;
+    }
+    img{
+        width:80%;
+    }
+    
+}
