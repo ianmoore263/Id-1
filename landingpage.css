@@ -7,28 +7,40 @@ body {
 img{
     width:100%;
 }
+section#exercises{
+    position: absolute;
+    border:solid;
+    float: left;
+    top: 25%;
+    right: 55%;
+}
+
+section#projects{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    border:solid;
+    float: right;
+}
 
 section#aboutme{
     position:fixed;
     top: 25%;
     left: 0;
-    bottom:0;
+    bottom:10%;
     width: 15%;
     background-color: bisque;
+    
         
-    
-    
 }
 
-h3{
-    background-color: aquamarine;
-    position: fixed;
-    border:hidden;
-    top:0;
-    right
-    bottom: 75%;
+footer#footer{
+    position:fixed;
+    bottom: 0%;
+    width:100%;
+    background-color: bisque;
+    align-content:center; 
 }
-
 /*Mobile Layout*/
 
 @media only screen and (Max-width:500px) {
@@ -37,6 +49,7 @@ h3{
         Width:80%;
         padding:2% 2%;
     }
+    
     img{
         width:80%;
     }
