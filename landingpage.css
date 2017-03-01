@@ -24,7 +24,7 @@ section#projects{
 }
 
 section#aboutme{
-    position:fixed;
+    position:absolute;
     top: 25%;
     left: 0;
     bottom:10%;
@@ -38,8 +38,7 @@ footer#footer{
     position:fixed;
     bottom: 0%;
     width:100%;
-    background-color: bisque;
-    align-content:center; 
+    background-color: bisque; 
 }
 /*Mobile Layout*/
 
