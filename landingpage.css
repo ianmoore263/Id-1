@@ -1,44 +1,48 @@
 /*Desktop Layout*/
 
 body {
-    margin:0;
+    margin:0.5;
+    font-family: sans-serif;
+    width: 100%;
+    background-color:antiquewhite
+}
+img#beach{
+    width:1500px;
+    image-orientation: center;
+}
+.p1{
+    margin-left:35%;
+}
+section{
+    float: left;
+    display: inline-block;
+}
+section#aboutme{
+    width: 30%;    
+}
+img#me{
+    width: 100%;
 }
 
-img{
-    width:100%;
-}
 section#exercises{
-    position: absolute;
-    border:solid;
-    float: left;
-    top: 25%;
-    right: 55%;
+    width: 35%;
 }
 
 section#projects{
-    position: absolute;
-    top: 25%;
-    left: 55%;
-    border:solid;
-    float: right;
-}
+    width: 35%;
 
-section#aboutme{
-    position:absolute;
-    top: 25%;
-    left: 0;
-    bottom:10%;
-    width: 15%;
-    background-color: bisque;
+}
+h4{
+    border-bottom:solid ;
     
-        
 }
 
-footer#footer{
+footer{
     position:fixed;
-    bottom: 0%;
+    bottom: 0;
     width:100%;
-    background-color: bisque; 
+    background-color:antiquewhite;
+    display:inline-block;
 }
 /*Mobile Layout*/
 
@@ -52,5 +56,11 @@ footer#footer{
     img{
         width:80%;
     }
-    
+    section#aboutme{
+        bottom: 0;
+        width:100%;
+    }
+    img#me{
+        width: 100%;
+    }
 }
