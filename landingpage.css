@@ -8,10 +8,20 @@ body {
 }
 img#beach{
     width:1200px;
-    image-orientation: center;
+    margin-left: 18%;
+}
+h2{
+    width: 100%;
+    text-align: center;
+}
+h3{
+    width: 100%;
+    text-align: center;
 }
 .p1{
-    margin-left:35%;
+    width: 100%;
+    text-align:center;
+
 }
 section{
     float: left;
@@ -34,7 +44,7 @@ section#projects{
 }
 h4{
     border-bottom:solid ;
-    
+
 }
 
 footer{
@@ -47,12 +57,15 @@ footer{
 /*Mobile Layout*/
 
 @media only screen and (Max-width:500px) {
-    
+
     Body{
-        Width:80%;
+        Width:82%;
         padding:2% 2%;
     }
-    
+    img#beach{
+        width: 80%;
+    }
+
     img{
         width:80%;
     }
@@ -63,4 +76,7 @@ footer{
     img#me{
         width: 100%;
     }
-}
+    
+        
+    
+    
