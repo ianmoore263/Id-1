@@ -7,8 +7,9 @@ body {
     background-color:antiquewhite
 }
 img#beach{
-    width:1200px;
-    margin-left: 18%;
+    max-width: 100%;
+    display: block;
+    margin:auto;
 }
 h2{
     width: 100%;
@@ -21,7 +22,10 @@ h3{
 .p1{
     width: 100%;
     text-align:center;
-
+}
+.p2{
+    width: 100%;
+    text-align:center;
 }
 section{
     float: left;
@@ -35,6 +39,7 @@ img#me{
 }
 
 section#exercises{
+    padding-bottom: 80px;
     width: 35%;
 }
 
@@ -59,15 +64,15 @@ footer{
 @media only screen and (Max-width:500px) {
 
     Body{
-        Width:82%;
-        padding:2% 2%;
+        Width:99%;
+        margin:2% 2% 0% 1%;
     }
     img#beach{
-        width: 80%;
+        width: 100%;
     }
 
     img{
-        width:80%;
+        width:100%;
     }
     section#aboutme{
         bottom: 0;
@@ -76,7 +81,16 @@ footer{
     img#me{
         width: 100%;
     }
+    .p2{
+        display:none;
+    }
+}
     
+    @media only screen and (min-width:501px) {
+        .p3{
+            display:none;
+        }
+    }
         
     
     
