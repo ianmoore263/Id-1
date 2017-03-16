@@ -61,7 +61,7 @@ footer{
 }
 /*Mobile Layout*/
 
-@media only screen and (Max-width:550px) {
+@media only screen and (Max-width:500px) {
 
     Body{
         Width:99%;
@@ -86,7 +86,7 @@ footer{
     }
 }
     
-    @media only screen and (min-width:551px) {
+    @media only screen and (min-width:501px) {
         .p3{
             display:none;
         }
