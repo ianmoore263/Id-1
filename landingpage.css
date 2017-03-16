@@ -31,8 +31,11 @@ section{
     float: left;
     display: inline-block;
 }
+.h4{
+    line-height: 1.8;
+}
 section#aboutme{
-    width: 30%;    
+    width: 30%;
 }
 img#me{
     width: 100%;
@@ -41,10 +44,15 @@ img#me{
 section#exercises{
     padding-bottom: 80px;
     width: 35%;
+    line-height: 1.8;
+    text-align: center;
+    list-style-position: inside;
+    vertical-align: middle;
 }
 
 section#projects{
     width: 35%;
+    line-height: 1.8;
 
 }
 h4{
@@ -77,6 +85,12 @@ footer{
     section#aboutme{
         bottom: 0;
         width:100%;
+    }
+    section#exercises{
+        line-height: 1.4;
+    }
+    section#projects{
+        line-height: 1.4;
     }
     img#me{
         width: 100%;
