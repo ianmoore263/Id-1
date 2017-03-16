@@ -61,7 +61,7 @@ footer{
 }
 /*Mobile Layout*/
 
-@media only screen and (Max-width:500px) {
+@media only screen and (Max-width:550px) {
 
     Body{
         Width:99%;
