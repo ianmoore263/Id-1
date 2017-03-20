@@ -4,7 +4,7 @@ body {
     margin:0.5;
     font-family: 'Amaranth', sans-serif;
     width: 100%;
-    background-color:antiquewhite;
+    background-color:antiquewhite
 }
 img#beach{
     max-width: 100%;
@@ -28,7 +28,6 @@ h3{
     text-align:center;
 }
 section{
-    font-family: 'Amaranth', sans-serif;
     float: left;
     display: inline-block;
 }
@@ -43,7 +42,7 @@ img#me{
 }
 
 section#exercises{
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     width: 35%;
     line-height: 1.8;
 }
