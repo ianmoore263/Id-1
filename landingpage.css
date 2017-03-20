@@ -45,6 +45,11 @@ section#exercises{
     padding-bottom: 120px;
     width: 35%;
     line-height: 1.8;
+<<<<<<< Updated upstream
+=======
+    text-align: center;
+    list-style-position: inside;
+>>>>>>> Stashed changes
 }
 
 section#projects{
