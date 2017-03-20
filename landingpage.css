@@ -2,7 +2,7 @@
 
 body {
     margin:0.5;
-    font-family: sans-serif;
+    font-family: 'Amaranth', sans-serif;
     width: 100%;
     background-color:antiquewhite
 }
@@ -28,6 +28,7 @@ h3{
     text-align:center;
 }
 section{
+    font-family: 'Amaranth', sans-serif;
     float: left;
     display: inline-block;
 }
